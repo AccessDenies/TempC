@@ -303,3 +303,46 @@ h1 {
         padding-top: 14px;
     }
 }
+/* Center align the complete header */
+.app-header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 0 26px;
+}
+
+/* Center the thermometer icon */
+.app-icon {
+    margin: 0 auto 20px;
+    flex-shrink: 0;
+}
+
+/* Keep the title on a single line */
+.app-header h1 {
+    width: 100%;
+    white-space: nowrap;
+    font-size: clamp(23px, 6.2vw, 34px);
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+/* Center subtitle */
+.app-header .subtitle {
+    text-align: center;
+    max-width: 100%;
+    font-size: 13px;
+}
+
+/* Small screens */
+@media (max-width: 360px) {
+    .app-header h1 {
+        font-size: 22px;
+        letter-spacing: -0.8px;
+    }
+
+    .app-header .eyebrow {
+        font-size: 10px;
+        letter-spacing: 1.5px;
+    }
+}
