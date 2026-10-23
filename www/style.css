@@ -369,3 +369,17 @@ h1 {
         letter-spacing: -0.8px;
     }
 }
+.app-header h1,
+.app-header .heading {
+    display: block !important;
+    width: 100% !important;
+    max-width: none !important;
+    white-space: nowrap !important;
+    overflow: visible !important;
+    font-size: 25px !important;
+    letter-spacing: -1.3px !important;
+    line-height: 1.2 !important;
+    text-align: center !important;
+    word-break: keep-all !important;
+    overflow-wrap: normal !important;
+}
