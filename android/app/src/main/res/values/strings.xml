@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">TempC</string>
+    <string name="title_activity_main">TempC</string>
+    <string name="package_name">com.accessdenies.tempc</string>
+    <string name="custom_url_scheme">com.accessdenies.tempc</string>
+</resources>
