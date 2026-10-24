@@ -1,5 +1,17 @@
 {
   "appId": "com.accessdenies.tapman",
   "appName": "TAPMAN",
-  "webDir": "www"
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2500,
+      "launchAutoHide": true,
+      "backgroundColor": "#E8F0FE",
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_INSIDE",
+      "showSpinner": false,
+      "splashFullScreen": true,
+      "splashImmersive": true
+    }
+  }
 }
