@@ -23,10 +23,10 @@
         <item name="android:windowLightStatusBar">true</item>
         <item name="android:windowLightNavigationBar">true</item>
     </style>
-        <style name="AppTheme.NoActionBarLaunch" parent="Theme.SplashScreen">
+       <style name="AppTheme.NoActionBarLaunch" parent="Theme.SplashScreen">
     <item name="windowSplashScreenBackground">#dfeffd</item>
-    <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_round</item>
-    <item name="windowSplashScreenIconBackgroundColor">#dfeffd</item>
+    <item name="windowSplashScreenAnimatedIcon">@drawable/splash</item>
+    <item name="windowSplashScreenAnimationDuration">0</item>
     <item name="postSplashScreenTheme">@style/AppTheme.NoActionBar</item>
 </style>
 </resources>
