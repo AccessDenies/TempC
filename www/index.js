@@ -78,3 +78,32 @@ resetBtn.addEventListener("click", () => {
 
     celsiusEl.focus();
 });
+
+const splashScreen = document.getElementById("splashScreen");
+const splashImage = document.getElementById("splashImage");
+const app = document.getElementById("app");
+
+async function showConverterAfterSplash() {
+    try {
+        if (splashImage.complete && splashImage.naturalWidth > 0) {
+            await splashImage.decode();
+        } else {
+            await new Promise((resolve, reject) => {
+                splashImage.addEventListener("load", resolve, { once: true });
+                splashImage.addEventListener("error", reject, { once: true });
+            });
+
+            await splashImage.decode();
+        }
+    } catch (error) {
+        console.error("Splash image failed to load:", error);
+    }
+
+    // Image load/decode ke baad short display duration
+    await new Promise(resolve => setTimeout(resolve, 1200));
+
+    splashScreen.classList.add("is-hidden");
+    app.classList.remove("app--hidden");
+}
+
+showConverterAfterSplash();
