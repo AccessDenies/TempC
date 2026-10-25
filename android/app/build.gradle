@@ -1,10 +1,10 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace = "com.accessdenies.tempc"
+    namespace = "com.accessdenies.tapman"
     compileSdk = rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "com.accessdenies.tempc"
+        applicationId "com.accessdenies.tapman"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

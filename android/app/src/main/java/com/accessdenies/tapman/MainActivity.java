@@ -1,4 +1,4 @@
-package com.accessdenies.tempc;
+package com.accessdenies.tapman;
 
 import com.getcapacitor.BridgeActivity;
 
