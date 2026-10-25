@@ -1,5 +1,12 @@
 {
   "appId": "com.accessdenies.tapman",
   "appName": "TAPMAN",
-  "webDir": "www"
+  "webDir": "www",
+"plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0,
+      "launchAutoHide": true,
+      "showSpinner": false
+    }
+  }
 }
