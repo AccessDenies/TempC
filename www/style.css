@@ -682,8 +682,8 @@ body {
     max-height: 100%;
     object-fit: contain;
     object-position: center;
+    transform: scale(1.4); /* Yahan 1.4 ya 1.5 karke size apne hisaab se bada ya chota kar sakte hain */
 }
-
 
 .splash-screen.is-hidden {
     opacity: 0;
