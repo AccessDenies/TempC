@@ -4,14 +4,12 @@
   "webDir": "www",
   "plugins": {
     "SplashScreen": {
-      "launchShowDuration": 3500,
-      "launchAutoHide": true,
-      "backgroundColor": "#E8F0FE",
-      "androidSplashResourceName": "splash",
-      "androidScaleType": "CENTER_INSIDE",
-      "showSpinner": false,
-      "splashFullScreen": true,
-      "splashImmersive": true
-    }
+  "launchShowDuration": 0,
+  "launchAutoHide": true,
+  "backgroundColor": "#dfeffd",
+  "androidSplashResourceName": "splash",
+  "androidScaleType": "CENTER_CROP",
+  "showSpinner": false
+}
   }
 }

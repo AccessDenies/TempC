@@ -100,7 +100,7 @@ async function showConverterAfterSplash() {
     }
 
     // Image load/decode ke baad short display duration
-    await new Promise(resolve => setTimeout(resolve, 1200));
+    await new Promise(resolve => setTimeout(resolve, 5000));
 
     splashScreen.classList.add("is-hidden");
     app.classList.remove("app--hidden");
